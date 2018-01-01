@@ -1,0 +1,75 @@
+body {
+    background-color: lightblue;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    font-family: 'Franklin Gothic Medium';
+    font-size: 26px;
+}
+
+h2 {
+    text-align: center;
+    color: purple;
+    font-family: cursive;
+    font-size: 65px;
+    border: 3px solid;
+}
+
+.photo {    
+    background-color: gold;
+    height: 100px;
+    width: 100px;    
+    padding: 20px;
+    font-size: 1.5em;
+    text-align: center;
+    transition: width 2s;
+    transition: width 3s, height 3s, transform 3s;
+}
+
+.photo:hover {
+    width: 180px;
+    height: 180px;
+    transform: rotate(360deg);
+}
+
+.contact {
+    float: left;
+    background-color: skyblue;
+    border-radius: 13px;
+}
+
+
+.birthTable {
+    float: right;
+    text-align: center;
+    color: green;
+}
+
+.gameLink {
+    color: darkred;
+    background-color: darkorange;
+    font-size: 31px;
+    text-align: center;
+    height: 200px;
+    width: 200px;    
+    margin: 5px;
+    padding: 13px;
+    border-radius: 32px;
+}
+
+.phone {
+    color: red;
+}
+
+button {
+    padding: 13px;
+    border-radius: 32px;
+    
+}
+
+button:active {
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
